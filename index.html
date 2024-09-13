@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau des Joueurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tableau des Joueurs</h1>
+    <table id="playersTable">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Club</th>
+                <th>Âge</th>
+                <th>Poste</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Les lignes seront ajoutées dynamiquement en JavaScript -->
+        </tbody>
+    </table>
+    
+    <!-- Popup pour les détails du joueur -->
+    <div id="playerDetails" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p id="playerInfo"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
